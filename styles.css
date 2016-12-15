@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*the following css is for all pages*/
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 100px;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px grey;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+button{
+	background-color: #DB1811;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	padding: 11px 22px;
+	width: 160px;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: #FFFFFF;
+	color: #DB1811;
+	cursor: pointer;
+	border: 2px solid #DB1811;
+}
+
+#header{
+	height: 70px;
+	width: 100%;
+	min-width: 900px;
+}
+
+#header img{
+	float: left;
+	width:150px;
+}
+
+nav ul{
+	display: inline;
+}
+
+
+nav ul li{
+	display:inline-block;
+	padding: 15px 10px 0px 20px;
+	font-size: 1.2em;
+	font-family: 'Righteous', cursive;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #DB1811;
+}
+
+footer{
+	clear: both;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 15px 0px 1px 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+footer a:hover{
+	opacity: 0.5;
+}
+
+/*The following is for the Index page*/
+#main{
+	background: url("mainCatering.jpg") no-repeat center center;
+	background-size: cover;
+	height: 513px;
+	margin-top: -60px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#main h1{
+	position: relative;
+	top: 50px;
+}
+	
+
+#main button{
+	position: relative;
+	top: 100px;
+}
+
+#description{
+	text-align:center;
+	font-size: 1.3em;
+	padding: 15px 20px 15px 20px;
+}
+
+#leftColumn{
+	float: left;
+	text-align: center;
+	width: 32%;
+	background: url("menuFood.jpg") no-repeat center center;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#leftColumn button{
+	margin-top: 60px;
+}
+
+#midColumn{
+	float: left;
+	text-align: center;
+	width: 32%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: url("chef.jpg") no-repeat center center;
+	height: 300px;
+}
+
+#midColumn button{
+	margin-top: 60px;
+}
+
+#rightColumn{
+	float: left;
+	text-align: center;
+	width: 32%;
+	background: url("specialFood.jpg") no-repeat center center;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#rightColumn button{
+	margin-top: 60px;
+}
+/*End of Index page CSS*/
+
+/*The following css is for the About Us page*/
+#aboutUsImage img{
+	width: 100%;
+    height: 450px;
+}
+
+#aboutUsImage{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#aboutUstext{
+	text-align: center;
+}
+
+#leftStaff img{
+	float: left;
+	width: 49%;
+	margin-right: 1%;
+	margin-bottom: 15px;
+}
+
+#rightStaff img{
+	float: left;
+	width: 49%;
+	margin-left: 1%;
+	margin-bottom: 15px;
+}
+/*End of About Us page css*/
+
+/* The following is for the menu pages */
+
+#mainMenuButtons{
+	text-align: center;
+	background: url("menuimage.jpg") no-repeat center center;
+	background-size: cover;
+	height: 490px;
+	margin-top: 5px;
+	padding-top: 60px;
+}
+
+#partyMenu{
+	text-align: center;
+	line-height: 200%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#lunchMenu{
+	text-align: center;
+	line-height: 200%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#officeCateringMenu{
+	text-align: center;
+	line-height: 200%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#breakfastMenu{
+	text-align: center;
+	line-height: 200%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#officeBbqMenu{
+	text-align: center;
+	line-height: 200%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#menuButtons{
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+/*End of menu pages */
+
+/*The following css is for the Specials page*/
+#specialsPic{
+	position:relative;
+}
+
+#specialsPic img{
+	width: 100%;
+	height: 450px;
+	margin-top: 5px;
+}
+
+#specialsPic h1{
+	position: absolute;
+	top: 50px;
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	text-align:center;
+}
+
+table{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	line-height: 200%;
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	Margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#specialtable td{
+	padding-left: 10px;
+}
+
+/*The following css is for the Contact page*/
+#map img{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+	
+#address{
+	float: left;
+	margin: 20px 20px 20px 220px;
+	font-size: 30px;
+}
+
+#contactForm{
+	float: left;
+	margin: 20px 20px 20px 220px;
+	font-family: 'Quicksand', sans-serif;
+}
+#contactForm{
+	line-height: 30px;
+}
+
+#contactForm input{
+	border: 2px solid #DB1811;
+	border-radius: 4px;
+	outline: none;
+	width: 250px;
+}
+
+select{
+	border: 2px solid #DB1811;
+	border-radius: 4px;
+	outline: none;
+	width: 250px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+textarea{
+	border: 2px solid #DB1811;
+	border-radius: 4px;
+	outline: none;
+}
+
+/*End of Contact page css*/
